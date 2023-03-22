@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+}
+.title1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+.background {
+    background-color: #c1c1c1;
+    min-height: 100%;
+}
