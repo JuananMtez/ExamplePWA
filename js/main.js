@@ -1,7 +1,12 @@
 const profile = JSON.parse(localStorage.getItem('profile'))
-document.getElementById("formFirstName").defaultValue = (profile === undefined || profile === null)  ? 'unknown' : profile.firstName;
-document.getElementById("formLastName").defaultValue = (profile === undefined || profile === null)  ? 'unknown' : profile.lastName;
-document.getElementById("formEmail").defaultValue = (profile === undefined || profile === null)  ? 'unknown' : profile.email;
+
+if (profile === undefined || profile === null) {
+    window.location.href = `login.html?_ijt=bfopchqjauv0dnrpqa5nqaq920&_ij_reload=RELOAD_ON_CHANGE`;
+}
+
+document.getElementById("formFirstName").defaultValue = profile.firstName;
+document.getElementById("formLastName").defaultValue = profile.lastName;
+document.getElementById("formEmail").defaultValue = profile.email;
 
 var numberCoffees = localStorage.getItem('coffees')
 
