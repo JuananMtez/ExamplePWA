@@ -1,4 +1,6 @@
 
+localStorage.clear()
+
 const disabledButton = () => {
     const firstName = document.getElementById('formFirstName').value
     const lastName = document.getElementById('formLastName').value
@@ -18,7 +20,7 @@ const onClickLogin = () => {
     const email = document.getElementById('formEmail').value
     
     localStorage.setItem('profile', JSON.stringify({firstName: firstName, lastName: lastName, email: email}))
-    window.location.href = `main.html?_ijt=bfopchqjauv0dnrpqa5nqaq920&_ij_reload=RELOAD_ON_CHANGE`;
+    window.location.href = `profile.html`;
 
 }
 
