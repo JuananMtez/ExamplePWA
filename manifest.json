@@ -1,0 +1,21 @@
+{
+  "name": "My app",
+  "short_name": "My app",
+  "description": "My app",
+  "icons": [
+    {
+      "src": "icons/pwa_icon_128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/pwa_icon_256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/login.html",
+  "display": "standalone",
+  "background_color": "#448AFF",
+  "theme_color": "#303F9F"
+}

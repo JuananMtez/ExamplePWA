@@ -1,4 +1,12 @@
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service_worker.js', {scope: './'}).then(registration => {
+        console.info('ServiceWorker registration: ', registration);
+    }).catch(err => {
+        console.error('ServiceWorker registration failed: ', err);
+    });
+}
+
 localStorage.clear()
 
 const disabledButton = () => {

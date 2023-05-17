@@ -28,7 +28,7 @@ if (initialImages !== null && initialImages.length > 0) {
 document.getElementById("div-spinner").style.visibility = "hidden"
 
 
-    const searchDogsImages = () => {
+const searchDogsImages = () => {
     const spinner = document.getElementById("div-spinner")
     const number = document.getElementById("inputNumberDogs")
     const btnAmountImages = document.getElementById("btnSearchImagesDog")

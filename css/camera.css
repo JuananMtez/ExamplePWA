@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    min-width: 240px;
+}
+.navbar {
+    background-color: #938d8d !important;
+    box-shadow: 0 2px 10px #000000;
+}
+.top-distance {
+    margin-top: 40px;
+}
+
+.img-shown {
+    width: 80px;
+}
+
+.background {
+    background-color: #c1c1c1;
+    padding-bottom: 50px;
+
+    min-height: 100%;
+}
+
+.active {
+    color: black !important;
+    font-weight: bold;
+}
+.page-footer {
+
+
+    width:100%;
+    background-color: #222;
+    color: #ccc;
+    padding: 30px 0 10px;
+}
+.footer-copyright {
+    color: #666;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+hr {
+    background-color: black;
+}
+
+.logout-btn {
+    color: #8c1e1e !important;
+    font-weight: bold;
+}
+
+.inputget {
+    font-size: 1px;
+    position: absolute;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+}

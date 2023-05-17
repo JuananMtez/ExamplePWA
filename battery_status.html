@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica TAW</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/battery_status.css">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+<div class="background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dogs.html">Dogs Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="maps.html">Google Maps</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="battery_status.html">Battery status</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="camera.html">Camera</a>
+                </li>
+
+
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item my-2 my-lg-0">
+                    <a class="nav-link logout-btn" href="login.html">Log out</a>
+                </li>
+
+            </ul>
+
+
+        </div>
+
+    </nav>
+    <div class="container top-distance">
+        <div class="row">
+
+            <div class="col-12">
+                <h3>Battery status</h3>
+                <hr/>
+            </div>
+
+            <div class="col-12 col-md-6 top-distance">
+                    <div class="col-12" >
+                        <h5>Current level</h5>
+                    </div>
+                    <div class="col-12" id="progressBattery">
+
+
+                    </div>
+
+            </div>
+            <div class="col-12 col-md-6 top-distance" id="batteryTable">
+                <div class="col-12">
+                    <h5>Addional info</h5>
+                </div>
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered">
+                            <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Info</th>
+                                <th scope="col">Value</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Current level</td>
+                                <td id="current_level">Otto</td>
+
+                            </tr>
+                            <tr>
+                                <td>Charging</td>
+                                <td id="charging">Otto</td>
+
+                            </tr>
+                            <tr>
+                                <td>Time to charge</td>
+                                <td id="time_to_charge">Otto</td>
+
+                            </tr>
+                            <tr>
+                                <td>time to discharge</td>
+                                <td id="time_to_discharge">Otto</td>
+
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>Práctica 2 - Tecnologías Actuales de la Web</p>
+
+            </div>
+            <div class=" col-md-4 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                <p>juanantonio.martinezl@um.es</p>
+            </div>
+
+            <div class="footer-copyright text-center col-12">
+                © 2023 Copyright: Universidad de Murcia
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/battery_status.js"></script>
+</body>
+</html>
